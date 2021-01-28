@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import pandas as pd 
   
 # Reads csv file  
-df = pd.read_csv(r"/content/clean_work.csv", encoding ="latin-1") 
+df = pd.read_csv(r"clean_work.csv", encoding ="latin-1") 
   
 comment_words = '' 
 stopwords = set(STOPWORDS) 
