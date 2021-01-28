@@ -15,7 +15,7 @@ Steps of creation:
 - I designed python packages for my tools and wrote extensive Python Algorithms into my source files 
 - I wrote source files for Customized Web scraping, Data Cleaning and Filtering
 - I automated data formatting for my data sets into CSV and JSON file, into my Database and loading on Excel Spreadsheets 
-- I retrieved sample Data, then visualised the Data Sets using JavaScript (D3 library), and HTML as well as python Libraries
+- I retrieved sample Data, then visualised the Data Sets using JavaScript (D3 library), and HTML as well as python Libraries (Pandas, Matplotlib, Seaborn, and Wordcloud)
 
 Process of use:
 - Run  "Webscraping_Tool" script and provide destination URL as input
