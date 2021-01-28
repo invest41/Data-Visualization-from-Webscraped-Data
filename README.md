@@ -20,7 +20,7 @@ Steps of creation:
 Process of use:
 - Run  "Webscraping_Tool" script and provide destination URL as input
 - Output file is "rough_work" text file
-- Run "Make_Translation" script to auto-clean data, Output file "clean_work" text file
+- Run "Make_Translation" script to auto-clean data, Output file "clean_work" text and csv file
 - Run "Load_on_database" or "load_on_excel" sripts to load on appropriate end destination for storage
 - Run "WordCloud_python" script to make WordCloud out of the "clean_work" CSV content
 - Run "WordCloud_javascript" script to make JavaScript file (gword.js) out of the "clean_work" text content
