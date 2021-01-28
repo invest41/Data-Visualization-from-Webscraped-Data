@@ -22,6 +22,7 @@ Process of use:
 - Output file is "rough_work" text file
 - Run "Make_Translation" script to auto-clean data, Output file "clean_work" text file
 - Run "Load_on_database" or "load_on_excel" sripts to load on appropriate end destination for storage
-- Run "WordCloud" script to make JavaScript file (gword.js) out of the "clean_work" text content
+- Run "WordCloud_python" script to make WordCloud out of the "clean_work" CSV content
+- Run "WordCloud_javascript" script to make JavaScript file (gword.js) out of the "clean_work" text content
 - Run the "gword.htm" file to visualise "gword.js". 
 Note: Make sure "d3.layout.cloud.js" and "d3.v2.js" files as well as "gword.htm" and "gword.js" files are in the same folder
