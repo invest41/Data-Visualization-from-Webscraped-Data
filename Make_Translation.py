@@ -5,7 +5,7 @@ def transcribe(word,p):
  return word.translate(code)
 
 dct, lst = {}, []
-fr = open('rough_work.txt')
+fr = open('rough_word.txt')
 for line in fr:
  line = line.split()
  word,freq = line[:][0], line[:][1]
@@ -29,5 +29,8 @@ for key in dct.copy():
 fr.close()
 
 fc = open('clean_work.txt','w')
+fw = open('clean_work.csv','w')
 [ fc.write(f'{k} {v}\n') for v,k in sorted([ (v, k) for k,v in dct.items()], reverse = True) ]
+[ fw.write(f'{k},{v}\n') for v,k in sorted([ (v, k) for k,v in dct.items()], reverse = True) ]
 fc.close()
+fw.close()
