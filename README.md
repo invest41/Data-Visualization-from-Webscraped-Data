@@ -2,7 +2,7 @@
 
 Project description
 
-Tools: Python and its Libraries, SQL programming, Microsoft Excel, JavaScript, and HTML  
+Tools: Python and its Libraries, SQL programming, Microsoft Excel, JavaScript, and HTML
 
 Useful Applicatons: 
 1) MOST SEARCHED WORDS in Identifying new SEO (Search Engine Optimisation) KEYWORDS to target for your products visibility  
